@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media(min-width:500px){
+    .navbar-toggler-icon{
+        display: none;
+    }
+}
+.navbar{
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(240, 240, 240);
+  box-shadow: 12px 4px 4px rgb(243, 241, 241)
+}
+.navbar-nav a{
+    color: rgb(255, 218, 5);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+.navbar-nav a:hover{
+    color: rgb(33, 179, 33);
+}
+div.card{
+   box-shadow: 12px 2px 12px rgba(159, 186, 196, 0.9);
+
+}
+p.card-text{
+    font-size: 9px;
+}
+p.money{
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.btn-dark{
+    width: 113px;
+    margin-left: 39px;
+
+}
+.icons{
+    color: rgb(255, 255, 22);
+}
+
+.img img{
+    box-shadow: 12px 13px 12px rgba(119, 235, 119, 0.9);
+}
+ .bt{
+    
+    box-shadow: 1px 3px 12px rgba(119, 235, 119, 0.9);
+ }
+
+
+
+.menu {
+    animation-duration: 4s;
+    animation-name: flash;
+    animation-iteration-count: infinite;
+  }
+
+  .span{
+    animation-duration: 4s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+  }
+  .home{
+    animation-duration: 4s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+  }
+  .img:hover{
+    cursor: pointer;
+    transition: 0.3s;
+
+  }
+ p.card-text{
+  font-size: 13px;
+  word-spacing: 2px;
+ }
+
+  h2{
+    position: absolute;
+    margin-bottom: 130px;
+    margin-left: 74px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: yellow;   
+transition: 0.3s;
+    z-index: 1;
+    opacity: 0;
+  }
+.sand{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 623px;
+    font-weight: 800;
+    width: 210px;
+    font-size: 12px;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 1.9;
+    opacity: 0;
+    z-index: 5;
+    transition: 0.3s;
+}
+  .gal1:hover h2{
+    opacity: 1;
+  }
+  
+  .gal1:hover .sand{
+    opacity: 1;
+  }
+  .gal1:hover .gal_btn{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .gal_btn{
+    position: absolute;
+    margin-top: 113px;
+    color: black;
+    background: yellow;
+    padding: 7px 25px;
+    text-decoration: none;
+    opacity: 0;
+    z-index: 5;
+    transform: translateY(45px);
+    transition: 0.3s;
+  }
+
+  button{
+    box-shadow: 12px 2px 12px rgba(151, 153, 151, 0.9);
+
+  }
+  .card-title{
+    margin-top: 134px;
+  }
+
+  .review{
+    font-size: 9px;
+  
+  }
+
+  .review_img:hover{
+    transform: translateY(-30px);
+    cursor: pointer;
+  }
+  div.social i{
+    margin: 0px;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .review_img:hover div.social i{
+    opacity: 1;
+    transform: translateY(-8px);
+  }
+
+  
+  #order{
+    margin-top: 153px;
+  }
+
+  .order{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.order_main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 11px;
+  position: absolute;
+ 
+}
+
+
+.order_main form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:0 10px;
+}
+
+.order_main form .input{
+  margin-top: 5px;
+}
+.order_main form .input p{
+  line-height: 1.4;
+  margin-bottom: 1px;
+
+
+}
+
+.order_main form .input input{
+  width: 160px;
+  height: 21px;
+  border: 2px solid rgb(199, 193, 193);
+  padding: 0 10px;
+
+}
+a.button{
+  position: absolute;
+  top: 9em;
+  left: 100px;
+}
