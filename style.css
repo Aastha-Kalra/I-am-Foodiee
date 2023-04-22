@@ -20,6 +20,10 @@
     text-transform: uppercase;
     
 }
+
+.navbar-nav a.nav-link.active{
+  color: rgb(102, 13, 102);
+}
 .navbar-nav a:hover{
     color: rgb(33, 179, 33);
 }
